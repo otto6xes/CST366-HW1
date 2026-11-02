@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How VMs Work</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Virtual Machines</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="used.html">How It's Used</a>
+            <a href="works.html">How It Works</a>
+            <a href="setup.html">Setup Process</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h3>How A Virtual Machine Works</h3>
+        <p>Virtual machines function by introducing a hypervisor to the host system to virtualy allocate the hosts computing resources to each VM. When a hypervisor allocates a resource such as CPU cores or RAM, it tells the host machine that those are being used and to not try and use them for istelf while the VM is running. On the VMs side when it is given access it will think that the resources given to it are the resources pyhsicaly installed to its machine leting the OS think it is on its own dedicated machine even though it is running on a protion of the real physical machine.</p>
+        <img src="img/hypervisor.jpg" alt="Image visualizing a hypervisor">
+        <br>
+        <caption>Image taken from DNSstuff.com</caption>
+        <br>
+        <a href="https://www.dnsstuff.com/what-is-hypervisor">DNSstuff</a>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Ethan Shelley. All rights reserved.</p>
+        <p>This site is for academic purposes only.</p>
+        <p>CST 336 Internet Programming.</p>
+        <img src="img/CSUMB-Logo.jpg" alt="CSUMB Logo">
+    </footer>
+</body>
+</html>
