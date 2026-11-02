@@ -41,7 +41,7 @@ main {
 .column {
     flex: 1;
     padding: 5rem;
-    background: #FFFFFF;
+    background: #3e3a3f;
     border-radius: 2.5rem;
     border-color: #173f73;
 }
