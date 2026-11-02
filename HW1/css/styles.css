@@ -35,7 +35,7 @@ main {
 
 .columns {
     display:flex;
-    gap: 15rem;
+    gap: 10rem;
 }
 
 .column {
@@ -43,7 +43,6 @@ main {
     padding: 5rem;
     background: #3e3a3f;
     border-radius: 2.5rem;
-    border-color: #173f73;
 }
 
 .column h5{
